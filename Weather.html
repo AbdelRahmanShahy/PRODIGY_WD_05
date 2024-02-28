@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="weather.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Weatherly</h1>
+        <div class="header-buttons">
+            <button>Go Premium</button>
+            <button>Login</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="weather-input">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/024/825/195/small/3d-weather-icon-day-with-rain-free-png.png" alt="weather-photo">
+            <h3>Enter a City Name</h3>
+            <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+            <button class="search-btn">Search</button>
+            .
+            <button class="location-btn">Use Current Location</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2 class="city-name">_____</h2>
+                    <h6>Temperature: <span class="temperature"></span></h6>
+                    <h6>Wind: <span class="wind-speed"></span></h6>
+                    <h6>Humidity: <span class="humidity"></span></h6>
+                </div>
+            </div>
+            
+            <div class="weather-info"></div>
+        </div>
+    </div>
+</body>
+</html>
